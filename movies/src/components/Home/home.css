@@ -72,6 +72,9 @@
     border: none;
     padding: 13px 10px;
 }
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
 .icon-search{
     color: rgb(114 114 114);
     font-family: Figtree;
@@ -460,6 +463,11 @@
   font-size: 12px;
   font-weight: 500;
   margin-top: 5px;
+}
+.massage-notfound{
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
 }
 
 
